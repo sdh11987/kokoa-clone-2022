@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="https://kit.fontawesome.com/6478f529f2.js"
+  crossorigin="anonymous"></script>
+  <title>코코아톡</title>
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>SKT, KT, LG U+</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>06:32</span>
+    </div>
+    <div class="status-bar__column">
+      <span>139%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">코코아톡에 오신걸 환영합니다!😁</h1>
+    <p class="welcome-header__text">로그인해 주세요!</p>
+  </header>
+
+  <form action="friends.html" method="get" id="login-form">
+    <input name="userid" required type="text" placeholder="이메일 혹은 전화번호 혹은 아무거나 입력하세요."/>
+    <input name="pw" required type="password" placeholder="비밀번호 혹은 아무거나 입력하세요."/>
+    <input type="submit" value="로그인" />
+    <!-- <input type="submit" value="가입하기" /> -->
+    <a href="#">코코아톡 계정 혹은 비밀번호 찾기</a>
+  </form>
+
+  <div id="no-mobile">
+    <span>화면이 너무 커요!😵‍💫</span>
+  </div>
+
+</body>
+</html>
